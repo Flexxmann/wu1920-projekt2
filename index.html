@@ -6,11 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Björnes MAGAZINE</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Ubuntu:300,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav></nav>
+    <nav id="nav">
+        <script>
+                    window.onscroll = function() {myFunction()};
+                    
+                    var navbar = document.getElementById("nav");
+                    var sticky = navbar.offsetTop;
+                    
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+                        navbar.classList.add("sticky")
+                    } else {
+                        navbar.classList.remove("sticky");
+                  }
+                }       
+        </script>
+
+        <h1><img src="img/logo.png" alt="LOGO"></h1>
+        <h1>HOME</h1>
+        <a href="shop.html"><h1>SHOP</h1></a>
+        <h1>PICTURES</h1>
+    </nav>
     <header></header>
-    <main></main>
+    <main>
+        <article class="bigpart">
+            <h2>Oski Rozenberg Nike Part</h2>
+            <a href="https://www.youtube.com/watch?v=Tb7bvEMp1TE">
+               <img src="img/snap.PNG" alt="thumbnail">
+            </a>
+        </article>
+        <article class="smallpart firstsmall">
+            <h2>Björnes MAGAZINE</h2>
+            <a href="trash_article.html">
+                <img src="img/skateboardpicture.jpg" alt="thumbnail">
+            </a>
+        </article>
+        <article class="smallpart secondsmall">
+            <h2>Startup Gruws</h2>
+            <a href="surfing.html">
+                <img src="img/waves.png" alt="thumbnail">
+            </a>
+        </article>
+    </main>
     <footer></footer>
 </body>
 </html>
