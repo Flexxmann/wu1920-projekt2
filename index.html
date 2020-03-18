@@ -17,20 +17,18 @@
                     var sticky = navbar.offsetTop;
                     
 function myFunction() {
-  if (window.pageYOffset >= sticky) {
+  if (window.pageYOffset >= sticky && window.matchMedia("(max-width: 700px)")) {
                         navbar.classList.add("sticky")
                     } else {
                         navbar.classList.remove("sticky");
                   }
-                }       
+                }
         </script>
 
-        <h1><img src="img/logo.png" alt="LOGO"></h1>
-        <h1>HOME</h1>
+        <a href="index.html"><h1>HOME</h1></a>
         <a href="shop.html"><h1>SHOP</h1></a>
-        <h1>PICTURES</h1>
+        <a href="pictures.html"><h1>PICTURES</h1></a>
     </nav>
-    <header></header>
     <main>
         <article class="bigpart">
             <h2>Oski Rozenberg Nike Part</h2>
@@ -45,9 +43,9 @@ function myFunction() {
             </a>
         </article>
         <article class="smallpart secondsmall">
-            <h2>Startup Gruws</h2>
+            <h2>About me :)</h2>
             <a href="surfing.html">
-                <img src="img/waves.png" alt="thumbnail">
+                <img src="img/ce386e1cb7e0c4f7e2fd2327e31c1487.png" alt="thumbnail">
             </a>
         </article>
     </main>

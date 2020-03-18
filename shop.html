@@ -4,13 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Merch</title>
     <link href="https://fonts.googleapis.com/css?family=Bangers|Ubuntu:300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav>
-        <h1>HOME</h1>
+    <nav id="nav">
+                <script>
+                    window.onscroll = function () { myFunction() };
+
+                    var navbar = document.getElementById("nav");
+                    var sticky = navbar.offsetTop;
+
+                    function myFunction() {
+                        if (window.pageYOffset >= sticky && window.matchMedia("(max-width: 700px)")) {
+                            navbar.classList.add("sticky")
+                        } else {
+                            navbar.classList.remove("sticky");
+                        }
+                    }
+                </script>
+        <a href="index.html"><h1>HOME</h1></a>
+        <a href="shop.html"><h1>SHOP</h1></a>
+        <a href="pictures.html"><h1>PICTURES</h1></a>
     </nav>
+    <main id="special">
+        <article class="smallpart firstsmall">
+            <a href="https://thehyv.shop/collections/lil-peep-archive" target="_blank">
+                <img src="img/tumblr_pbyzoepjB91xa0na0o1_1280.png" alt="thumbnail">
+            </a>
+            <h2>LIL PEEP CLOTHING HYV<h2>
+        </article>
+        <article class="smallpart secondsmall">
+            <a href="https://suicideboysstore.com/">
+                <img src="img/1891674.png" alt="thumbnail">
+            </a>
+            <h2>$uicideboy$ Collection$</h2>
+            </article>
+    </main>
+    <footer></footer>
 </body>
 </html>

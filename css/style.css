@@ -1,14 +1,6 @@
-@media only screen and (min-width: 600px){
-header{
-    display: none;
-}
-}
-
-
-#center{
+.center{
     text-align: center;
 }
-
 body{
     display:flex;
     background-color: #F3F5F2;
@@ -20,20 +12,25 @@ nav{
     flex-grow: 2;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-bottom: 2vh;
     overflow: hidden;
     top: 0;
     left: 0;
+    height: 5vh;
+    background-color: rgba(80, 120, 250, 0.05);
 }
-.sticky {
+nav.sticky{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-image: url(../img/banner.png);
 }
-.sticky + .content {
+nav.sticky a h1{
+    color: #F3F5F2;
+}
+nav.sticky + .content {
     padding-top: 38.98px;
 }
 
@@ -88,8 +85,9 @@ article.smallpart{
 }
 article.smallpart a img{
     max-width: 100%;
-}
-article.smallpart h2{
+    max-width: 100%;
+    height: auto;
+}article.smallpart h2{
     font-size: smaller;
 }
 p{
@@ -102,4 +100,35 @@ a{
 }
 h4{
     text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+.pictures img{
+    height: 12vh;
+    margin: 1vw;
+}
+.pictures{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+@media only screen and (min-width: 600px){
+.pictures img{
+    height: 35vh;
+}
+h2{
+    font-size: 3em;
+}
+article.smallpart h2{
+    font-size: 2em;
+}
+nav h1{
+    font-size: 2em;
+}
+nav{
+    height: 10vh;
+}
+}
+#special article h2{
+    margin-bottom: 3em;
 }
