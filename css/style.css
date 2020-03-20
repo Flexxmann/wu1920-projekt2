@@ -12,7 +12,7 @@ nav{
     flex-grow: 2;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 2vh;
     overflow: hidden;
     top: 0;
