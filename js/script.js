@@ -1,14 +1,12 @@
-window.onscroll = function () {myfunction()};
+window.onscroll = function () { myFunction() };
 
 var navbar = document.getElementById("nav");
-
 var sticky = navbar.offsetTop;
-
-
-function myfunction() {
-    if (window.pageYOffset > sticky) {
+var sticky = sticky + 40;
+function myFunction() {
+    if (window.pageYOffset >= sticky && window.matchMedia("(max-width: 700px)")) {
         navbar.classList.add("sticky")
-    } else  {
+    } else {
         navbar.classList.remove("sticky");
     }
 }

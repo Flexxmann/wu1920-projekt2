@@ -4,57 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Björnes MAGAZINE</title>
+    <title>Bjornes MAGAZINE</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Bangers|Ubuntu:300,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav id="nav">
-        <script>
-                    window.onscroll = function() {myFunction()};
-                    
-                    var navbar = document.getElementById("nav");
-                    var sticky = navbar.offsetTop;
-                    
-function myFunction() {
-  if (window.pageYOffset >= sticky && window.matchMedia("(max-width: 700px)")) {
-                        navbar.classList.add("sticky")
-                    } else {
-                        navbar.classList.remove("sticky");
-                  }
-                }
-        </script>
+        <script type="text/javascript" src="js/script.js"></script>
 
         <a href="index.html"><h1>HOME</h1></a>
         <a href="shop.html"><h1>SHOP</h1></a>
         <a href="pictures.html"><h1>PICTURES</h1></a>
     </nav>
-    <main>
+    <main class="content">
         <article class="bigpart">
             <h2>Oski Rozenberg Nike Part</h2>
             <a target="_blank" href="https://www.youtube.com/watch?v=Tb7bvEMp1TE">
                <img src="img/snap.PNG" alt="thumbnail">
             </a>
         </article>
-        <article class="smallpart firstsmall">
-            <h2>Björnes MAGAZINE</h2>
+        <div>
+        <article class="smallpart">
+            <h2>Bjornes</h2>
             <a href="trash_article.html">
                 <img src="img/skateboardpicture.jpg" alt="thumbnail">
             </a>
         </article>
-        <article class="smallpart secondsmall">
-            <h2>About me :)</h2>
+        <article class="smallpart">
+            <h2>About me</h2>
             <a href="surfing.html">
                 <img src="img/ce386e1cb7e0c4f7e2fd2327e31c1487.png" alt="thumbnail">
             </a>
         </article>
-        <article class="smallpart firstsmall">
-            <h2>Planering</h2>
+        <article class="smallpart">
+            <h2>Schedule</h2>
             <a href="misc/planering.html">
                 <img src="img/planering.jpg" alt="thumbnail">
             </a>
         </article>
-        
+        <article class="smallpart">
+            <h2>About me</h2>
+            <a href="surfingcopy.html">
+                <img src="img/ce386e1cb7e0c4f7e2fd2327e31c1487.png" alt="thumbnail">
+            </a>
+        </article>
+        </div>
     </main>
     <footer></footer>
 </body>

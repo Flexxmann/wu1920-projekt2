@@ -1,0 +1,35 @@
+Detta är min planering under förbättringsarbetet.
+
+    Första lektionen börjar jag med att kolla över dem tre sistnämnda felen i google docs dokumentet. 
+    Jag ändrade om min java script så jag bara referade till den från en script tag och all kod ligger i js mappen.
+    Jag endad min h2 tag.
+    Jag börjar skriva om från svenska till engenlska då jag föredrar att ha min webbsida på engelska.
+    Jag skall även efter detta förbättra min mobilanpassning.
+
+
+
+
+
+
+    Jag planerar att nästa lektion genomföra valideringar och kontrast checker, så jag ska testa min sida i firefox, edge och förhoppningsvis på telefonen om jag lyckas med det.
+
+
+
+
+
+
+
+
+
+    
+Testning
+
+
+
+
+
+
+
+
+
+Utvärdering
