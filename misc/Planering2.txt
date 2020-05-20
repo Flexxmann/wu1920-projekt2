@@ -1,35 +1,31 @@
-Detta är min planering under förbättringsarbetet.
+Planering
 
-    Första lektionen börjar jag med att kolla över dem tre sistnämnda felen i google docs dokumentet. 
-    Jag ändrade om min java script så jag bara referade till den från en script tag och all kod ligger i js mappen.
-    Jag endad min h2 tag.
-    Jag börjar skriva om från svenska till engenlska då jag föredrar att ha min webbsida på engelska.
-    Jag skall även efter detta förbättra min mobilanpassning.
+Först siktar jag på att korrektera mina fel. Samt kanske fina till saker som jag inte är nöjd med. ex. flytta min js till externt dokument med mera. Fixa så att allting verkligen skalar som det ska.
 
+Sedan skall jag göra ett bildspel eller någon finare presentation av mina bilder i gallery. Möjligtvis fina till mina artiklar smått.
 
+Sedan skall jag testa min sida på telefon och i andra webbläsare, och validera min filer, och kolla mina kontrastser.
 
-
-
-
-    Jag planerar att nästa lektion genomföra valideringar och kontrast checker, så jag ska testa min sida i firefox, edge och förhoppningsvis på telefonen om jag lyckas med det.
-
-
-
-
-
-
-
-
-
-    
-Testning
-
-
-
-
-
-
+Slutligen lägga till mer material om jag har tid med det, i form av att fortsätta fylla ut med artiklar och kanske fler bilder. Borde gå lätt då jag har byggt min sida genom att göra mallar.
 
 
 
 Utvärdering
+
+Jag ändrade om mina fel i html och flyttade all js till js fil. Detta gick enkelt och relativt snabbt. Sedan satt jag väldigt lång tid med att lista ut just vad som skalar och vad som inte skalar och leta efter fel där.
+
+Det gick men det var väldigt tidskrävande.
+
+Bildspelet gjorde jag först via javascript på en ny sida man öppnade om man klickade på bilderna, men detta tyckte jag inte var smidigt så jag ändrade till en sida "gallery" som har en slideshow gjord med css.
+
+Detta var väldigt givande för det gav min sida mycket mer dynamik. 
+
+Jag har nu även testat min hemsida på telefonen vilket jag tyckte var förvånanvsvärt bra. Jag testade även den i internet explorer men lyckades inte riktigt lösa min problem där.
+Samt har jag sedan tidgare testat i mozilla vilket såg fint ut och även i edge. Jag har dock inte testat i safari utanför telefonen men jag antar att safari på telefonen skulle avslöja möjliga fel.
+
+Valideringen av mina filer var väldigt bra och hade endast småkommentarer vilka jag inte höll med om (h1 som nav).
+
+Sedan har jag nu på slutet hunnit göra en till artikel och anser själv att det finns tillräckligt med material för vad som skulle vara rimligt för en nystartad sida. Därav har jag inte lagt mer tid från min fritid på att fylla den med innehåll.
+
+Jag är personligen nöjd med sidan och gillar hur jag fick till slideshowen och min index sida. Kanske lite mindre nöjd med artikelsidorna men det var väldigt svårt och kan tänka mig att mer invecklade artiklar skulle ha mer bilder på sidorna och textstycken.
+
